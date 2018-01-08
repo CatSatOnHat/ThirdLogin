@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49E827E13A42D2CF664B85CE8F869C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5502A725B5807F29696C39F030980C8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		79C3C7B90D7121762B101E206BD8D17D /* Pods-ThirdLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D7733F7025F61807B397534F39E280 /* Pods-ThirdLogin-dummy.m */; };
+		890A35912CFE4CC3A4AA8DAAF5766314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DE14AEDBD0F41371397001D9CC2A0F35 /* Pods-ThirdLoginUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0806B339493B4BD12B67EA1E2E69F209 /* Pods-ThirdLoginUITests-dummy.m */; };
+		EA26CB145F02F6A14C8953AC797272AA /* Pods-ThirdLoginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85958CBC6295C5F300F338EC3BDC8030 /* Pods-ThirdLoginTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D0FB097BE71B41B48BDBB892C9F042 /* libPods-ThirdLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ThirdLogin.a"; path = "libPods-ThirdLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0806B339493B4BD12B67EA1E2E69F209 /* Pods-ThirdLoginUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThirdLoginUITests-dummy.m"; sourceTree = "<group>"; };
+		0DDD424001D4DC6268D126D13BD639F8 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.7.7/WXApiObject.h; sourceTree = "<group>"; };
+		15A7795A64CDA0AD54998DFAFDB30CB5 /* Pods-ThirdLoginUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThirdLoginUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26D5C357E66AFFA3BCFB2C862D318E78 /* Pods-ThirdLogin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdLogin-frameworks.sh"; sourceTree = "<group>"; };
+		2DDC9A83B40697D8F86CF7704779818F /* Pods-ThirdLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35D856AE7103EA285ABADA9A066F9087 /* Pods-ThirdLoginUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdLoginUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3657E07F8A51611A2057CDCD5B719E99 /* Pods-ThirdLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F43A37930B66E049820EF5E90C8AC96 /* Pods-ThirdLogin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThirdLogin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4995D6FA5F4EC4A10C8A76A3B842B1BD /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		4BC9B3E20818A61767C21ABFBC2CF367 /* libPods-ThirdLoginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ThirdLoginTests.a"; path = "libPods-ThirdLoginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E74651F73DCEB20D43C3DDF095CEAFE /* Pods-ThirdLoginTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThirdLoginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		555C0ABD4E92E9EE7018F9A7D6DEA75F /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		6A1B0200F5C4F7D65FF44F95BF2CF6BF /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		77111C8441F1829EF54B10551EA9311F /* Pods-ThirdLoginUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThirdLoginUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E77609F17D17BC127BDE34610E1ECCF /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuth.h; path = Basic/TencentOpenAPI.framework/Headers/TencentOAuth.h; sourceTree = "<group>"; };
+		85958CBC6295C5F300F338EC3BDC8030 /* Pods-ThirdLoginTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThirdLoginTests-dummy.m"; sourceTree = "<group>"; };
+		87C3673DAA51A0A1476502134CE4E7A7 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.7.7/libWeChatSDK.a; sourceTree = "<group>"; };
+		89B566A0E5DECAA555BBA50E22D766A9 /* Pods-ThirdLogin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThirdLogin-acknowledgements.plist"; sourceTree = "<group>"; };
+		92479B37A1899668D68F72C95F8F767C /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = Basic/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D7733F7025F61807B397534F39E280 /* Pods-ThirdLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThirdLogin-dummy.m"; sourceTree = "<group>"; };
+		A543F2CD2802582C5B556F0E371227FB /* Pods-ThirdLogin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdLogin-resources.sh"; sourceTree = "<group>"; };
+		A798CF6CED31DD14DE55CD5CB930ED8B /* Pods-ThirdLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		BDE83FE263E498F4C67B8EFC4C440680 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.7.7/WXApi.h; sourceTree = "<group>"; };
+		C4A4BE6E9B833611B04E1DBF88FD1274 /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdkdef.h; path = Basic/TencentOpenAPI.framework/Headers/sdkdef.h; sourceTree = "<group>"; };
+		C93462193FC28F5E8D03FB68BC4EE85F /* Pods-ThirdLoginTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThirdLoginTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB92853A29B758724F0517A8B54F58CD /* Pods-ThirdLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCCCAD8B3B31F806FBE7CC1C1A41E519 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterfaceObject.h; path = Basic/TencentOpenAPI.framework/Headers/QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		CD966982A01603491896697471577D8B /* Pods-ThirdLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2CA0A47314707EB8269CB8614B884D3 /* Pods-ThirdLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThirdLogin.release.xcconfig"; sourceTree = "<group>"; };
+		DB69A75465C319ED01685C2383CAE8A1 /* Pods-ThirdLoginTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdLoginTests-resources.sh"; sourceTree = "<group>"; };
+		E2AA34CEE5130F9828F929116D304314 /* Pods-ThirdLoginTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdLoginTests-frameworks.sh"; sourceTree = "<group>"; };
+		EAF4580CA0E510DAC402EDC7E0C667F1 /* libPods-ThirdLoginUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ThirdLoginUITests.a"; path = "libPods-ThirdLoginUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FBF4C6AF5D0DBDF5A2A32D5BA6515F /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.7.7/WechatAuthSDK.h; sourceTree = "<group>"; };
+		F453E6F13CA17858FC54E7150733C1CD /* Pods-ThirdLoginUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThirdLoginUITests-resources.sh"; sourceTree = "<group>"; };
+		F8DE32039982F82DF6EBE6217B470E96 /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterface.h; path = Basic/TencentOpenAPI.framework/Headers/QQApiInterface.h; sourceTree = "<group>"; };
+		F9570B0ED9F60AB96D8BE74309132A8C /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		FEAF9FD7DFED2EAA5EDE4A74A5719D47 /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuthObject.h; path = Basic/TencentOpenAPI.framework/Headers/TencentOAuthObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CA78851F6579D305F05959F7B5C8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E827E13A42D2CF664B85CE8F869C42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E77AA3614D4AB7EC77670C4C9A2C280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890A35912CFE4CC3A4AA8DAAF5766314 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0712C7A73C0AE7C3D84C7C89A86035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5502A725B5807F29696C39F030980C8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2988D1584E8C22D3077041923F9F2EF1 /* TencentOpenApiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				927FD9F74D3069A5CE1A448EE94D20A0 /* Basic */,
+			);
+			name = TencentOpenApiSDK;
+			path = TencentOpenApiSDK;
+			sourceTree = "<group>";
+		};
+		4D55395E28F7C162BE1D92F11B8FDA4E /* Pods-ThirdLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77111C8441F1829EF54B10551EA9311F /* Pods-ThirdLoginUITests-acknowledgements.markdown */,
+				15A7795A64CDA0AD54998DFAFDB30CB5 /* Pods-ThirdLoginUITests-acknowledgements.plist */,
+				0806B339493B4BD12B67EA1E2E69F209 /* Pods-ThirdLoginUITests-dummy.m */,
+				35D856AE7103EA285ABADA9A066F9087 /* Pods-ThirdLoginUITests-frameworks.sh */,
+				F453E6F13CA17858FC54E7150733C1CD /* Pods-ThirdLoginUITests-resources.sh */,
+				2DDC9A83B40697D8F86CF7704779818F /* Pods-ThirdLoginUITests.debug.xcconfig */,
+				CD966982A01603491896697471577D8B /* Pods-ThirdLoginUITests.release.xcconfig */,
+			);
+			name = "Pods-ThirdLoginUITests";
+			path = "Target Support Files/Pods-ThirdLoginUITests";
+			sourceTree = "<group>";
+		};
+		5D8FDB805547943949BF10DCFECD1A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D0FB097BE71B41B48BDBB892C9F042 /* libPods-ThirdLogin.a */,
+				4BC9B3E20818A61767C21ABFBC2CF367 /* libPods-ThirdLoginTests.a */,
+				EAF4580CA0E510DAC402EDC7E0C667F1 /* libPods-ThirdLoginUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6382660025E0CA19674981BA912EC40B /* Pods-ThirdLogin */ = {
+			isa = PBXGroup;
+			children = (
+				3F43A37930B66E049820EF5E90C8AC96 /* Pods-ThirdLogin-acknowledgements.markdown */,
+				89B566A0E5DECAA555BBA50E22D766A9 /* Pods-ThirdLogin-acknowledgements.plist */,
+				A1D7733F7025F61807B397534F39E280 /* Pods-ThirdLogin-dummy.m */,
+				26D5C357E66AFFA3BCFB2C862D318E78 /* Pods-ThirdLogin-frameworks.sh */,
+				A543F2CD2802582C5B556F0E371227FB /* Pods-ThirdLogin-resources.sh */,
+				A798CF6CED31DD14DE55CD5CB930ED8B /* Pods-ThirdLogin.debug.xcconfig */,
+				D2CA0A47314707EB8269CB8614B884D3 /* Pods-ThirdLogin.release.xcconfig */,
+			);
+			name = "Pods-ThirdLogin";
+			path = "Target Support Files/Pods-ThirdLogin";
+			sourceTree = "<group>";
+		};
+		69C874A4968151AF3EC5972ADABA51D2 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBF4C6AF5D0DBDF5A2A32D5BA6515F /* WechatAuthSDK.h */,
+				BDE83FE263E498F4C67B8EFC4C440680 /* WXApi.h */,
+				0DDD424001D4DC6268D126D13BD639F8 /* WXApiObject.h */,
+				811254CCA0C5B31C1BE1F6B78D13C3C0 /* Frameworks */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75B49C86F47E2D7FA05DA4C7489D2B0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6382660025E0CA19674981BA912EC40B /* Pods-ThirdLogin */,
+				C6831A4477392C1B3F64E24B10B491E9 /* Pods-ThirdLoginTests */,
+				4D55395E28F7C162BE1D92F11B8FDA4E /* Pods-ThirdLoginUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A00A916860AC0D22C8A4E70F7A787DB6 /* Pods */,
+				5D8FDB805547943949BF10DCFECD1A76 /* Products */,
+				75B49C86F47E2D7FA05DA4C7489D2B0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		811254CCA0C5B31C1BE1F6B78D13C3C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87C3673DAA51A0A1476502134CE4E7A7 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87F2521BBB2CA591B16191BCBE8D1E24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				555C0ABD4E92E9EE7018F9A7D6DEA75F /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		927FD9F74D3069A5CE1A448EE94D20A0 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				F8DE32039982F82DF6EBE6217B470E96 /* QQApiInterface.h */,
+				CCCCAD8B3B31F806FBE7CC1C1A41E519 /* QQApiInterfaceObject.h */,
+				C4A4BE6E9B833611B04E1DBF88FD1274 /* sdkdef.h */,
+				7E77609F17D17BC127BDE34610E1ECCF /* TencentOAuth.h */,
+				FEAF9FD7DFED2EAA5EDE4A74A5719D47 /* TencentOAuthObject.h */,
+				D1718CCBB4A07E622C7182CE0CC50102 /* Frameworks */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		A00A916860AC0D22C8A4E70F7A787DB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2988D1584E8C22D3077041923F9F2EF1 /* TencentOpenApiSDK */,
+				69C874A4968151AF3EC5972ADABA51D2 /* WechatOpenSDK */,
+				DCFFAE9624F84F474953F1F2B3F2E2E6 /* Weibo_SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6831A4477392C1B3F64E24B10B491E9 /* Pods-ThirdLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E74651F73DCEB20D43C3DDF095CEAFE /* Pods-ThirdLoginTests-acknowledgements.markdown */,
+				C93462193FC28F5E8D03FB68BC4EE85F /* Pods-ThirdLoginTests-acknowledgements.plist */,
+				85958CBC6295C5F300F338EC3BDC8030 /* Pods-ThirdLoginTests-dummy.m */,
+				E2AA34CEE5130F9828F929116D304314 /* Pods-ThirdLoginTests-frameworks.sh */,
+				DB69A75465C319ED01685C2383CAE8A1 /* Pods-ThirdLoginTests-resources.sh */,
+				3657E07F8A51611A2057CDCD5B719E99 /* Pods-ThirdLoginTests.debug.xcconfig */,
+				CB92853A29B758724F0517A8B54F58CD /* Pods-ThirdLoginTests.release.xcconfig */,
+			);
+			name = "Pods-ThirdLoginTests";
+			path = "Target Support Files/Pods-ThirdLoginTests";
+			sourceTree = "<group>";
+		};
+		D1718CCBB4A07E622C7182CE0CC50102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92479B37A1899668D68F72C95F8F767C /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCFFAE9624F84F474953F1F2B3F2E2E6 /* Weibo_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F9570B0ED9F60AB96D8BE74309132A8C /* WBHttpRequest.h */,
+				6A1B0200F5C4F7D65FF44F95BF2CF6BF /* WeiboSDK.h */,
+				EC7B2A71A391B17E40BE85EA013A80B5 /* Frameworks */,
+				87F2521BBB2CA591B16191BCBE8D1E24 /* Resources */,
+			);
+			name = Weibo_SDK;
+			path = Weibo_SDK;
+			sourceTree = "<group>";
+		};
+		EC7B2A71A391B17E40BE85EA013A80B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4995D6FA5F4EC4A10C8A76A3B842B1BD /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C08E33775F33DE4CDE4F69050E062A9 /* Pods-ThirdLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067DCB1015124C636B0EAB24F55DC44D /* Build configuration list for PBXNativeTarget "Pods-ThirdLoginTests" */;
+			buildPhases = (
+				D74BDB4B72DB13AD02994F809342B7AE /* Sources */,
+				2E0712C7A73C0AE7C3D84C7C89A86035 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ThirdLoginTests";
+			productName = "Pods-ThirdLoginTests";
+			productReference = 4BC9B3E20818A61767C21ABFBC2CF367 /* libPods-ThirdLoginTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1B20E46FC06157FCDC08B19CD9D1126 /* Pods-ThirdLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7A45E91DCA1101154D276CB5882CD5 /* Build configuration list for PBXNativeTarget "Pods-ThirdLoginUITests" */;
+			buildPhases = (
+				528CB73124B8D7503FBA7FF85043FCA8 /* Sources */,
+				1E77AA3614D4AB7EC77670C4C9A2C280 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ThirdLoginUITests";
+			productName = "Pods-ThirdLoginUITests";
+			productReference = EAF4580CA0E510DAC402EDC7E0C667F1 /* libPods-ThirdLoginUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D22CB78F58F691E8EB8AE7C3F65890AC /* Pods-ThirdLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7FE6F0E8DA292DC7A19BE30589E31AF /* Build configuration list for PBXNativeTarget "Pods-ThirdLogin" */;
+			buildPhases = (
+				5595F9195FCE01967D61334C28E30B87 /* Sources */,
+				07CA78851F6579D305F05959F7B5C8A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ThirdLogin";
+			productName = "Pods-ThirdLogin";
+			productReference = 05D0FB097BE71B41B48BDBB892C9F042 /* libPods-ThirdLogin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5D8FDB805547943949BF10DCFECD1A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22CB78F58F691E8EB8AE7C3F65890AC /* Pods-ThirdLogin */,
+				1C08E33775F33DE4CDE4F69050E062A9 /* Pods-ThirdLoginTests */,
+				D1B20E46FC06157FCDC08B19CD9D1126 /* Pods-ThirdLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528CB73124B8D7503FBA7FF85043FCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE14AEDBD0F41371397001D9CC2A0F35 /* Pods-ThirdLoginUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5595F9195FCE01967D61334C28E30B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C3C7B90D7121762B101E206BD8D17D /* Pods-ThirdLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74BDB4B72DB13AD02994F809342B7AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA26CB145F02F6A14C8953AC797272AA /* Pods-ThirdLoginTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B69671CBC673D41EC111BFAA3497E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB92853A29B758724F0517A8B54F58CD /* Pods-ThirdLoginTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		87C4797ABED112B5AF0D93DC6944EA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD966982A01603491896697471577D8B /* Pods-ThirdLoginUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC3CA528FFE6DCEA57CA0C35C27283A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3657E07F8A51611A2057CDCD5B719E99 /* Pods-ThirdLoginTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADDDBE9C0508955ED72F94F08BC8416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDC9A83B40697D8F86CF7704779818F /* Pods-ThirdLoginUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEC903A1252907EC918F34D32C548DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2CA0A47314707EB8269CB8614B884D3 /* Pods-ThirdLogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB3D731E984E8315B78C9A78A5B21E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A798CF6CED31DD14DE55CD5CB930ED8B /* Pods-ThirdLogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067DCB1015124C636B0EAB24F55DC44D /* Build configuration list for PBXNativeTarget "Pods-ThirdLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3CA528FFE6DCEA57CA0C35C27283A0 /* Debug */,
+				4B69671CBC673D41EC111BFAA3497E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7FE6F0E8DA292DC7A19BE30589E31AF /* Build configuration list for PBXNativeTarget "Pods-ThirdLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3D731E984E8315B78C9A78A5B21E53 /* Debug */,
+				DEC903A1252907EC918F34D32C548DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7A45E91DCA1101154D276CB5882CD5 /* Build configuration list for PBXNativeTarget "Pods-ThirdLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDDBE9C0508955ED72F94F08BC8416D /* Debug */,
+				87C4797ABED112B5AF0D93DC6944EA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
